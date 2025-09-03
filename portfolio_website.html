@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gowtham Kumar | Jira Administrator</title>
+  <style>
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(180deg, #f4f7fb, #ffffff);
+      color: #333;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #fff;
+      padding: 4rem 1rem 5rem;
+      text-align: center;
+      position: relative;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      font-weight: 700;
+      animation: fadeInDown 1s ease;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      color: #e0e0e0;
+      animation: fadeInUp 1.2s ease;
+    }
+    .resume-btn {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.8rem 1.5rem;
+      background: #ffd43b;
+      color: #1e3c72;
+      font-weight: bold;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    .resume-btn:hover {
+      background: #ffca2c;
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    nav {
+      background: #2a5298;
+      text-align: center;
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+    nav a:hover {
+      color: #ffd43b;
+      transform: scale(1.1);
+    }
+
+    section {
+      max-width: 1100px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+      animation: fadeIn 1s ease-in;
+      transition: transform 0.3s ease;
+    }
+    section:hover {
+      transform: translateY(-5px);
+    }
+    section h2 {
+      border-left: 6px solid #2a5298;
+      padding-left: 0.8rem;
+      margin-bottom: 1.5rem;
+      color: #1e3c72;
+      font-size: 1.8rem;
+    }
+
+    .skills ul, .experience ul, .projects ul {
+      list-style: none;
+      padding: 0;
+    }
+    .skills li, .experience li, .projects li {
+      margin: 0.8rem 0;
+      padding: 0.8rem 1rem;
+      background: #f9fbff;
+      border-left: 5px solid #2a5298;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+    .skills li:hover, .experience li:hover, .projects li:hover {
+      transform: translateX(8px);
+      background: #eef4ff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    #contact p {
+      font-size: 1.1rem;
+    }
+
+    .cta-section {
+      text-align: center;
+      padding: 4rem 2rem;
+      margin: 3rem 0 0;
+      background: linear-gradient(135deg, #2a5298, #1e3c72);
+      color: #fff;
+      border-radius: 15px 15px 0 0;
+    }
+    .cta-section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .cta-section p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .cta-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .cta-btn {
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      background: #ffd43b;
+      color: #1e3c72;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 50px;
+      transition: all 0.3s ease;
+    }
+    .cta-btn:hover {
+      background: #ffca2c;
+      transform: scale(1.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #1e3c72;
+      color: #eee;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    @keyframes fadeInDown {
+      from {opacity: 0; transform: translateY(-30px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    @keyframes fadeInUp {
+      from {opacity: 0; transform: translateY(30px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Gowtham Kumar</h1>
+    <p>Jira Administrator & Developer | 9+ Years IT Experience</p>
+    <p>Email: <a href="mailto:kgh2812jira@gmail.com" style="color:#ffd43b">kgh2812jira@gmail.com</a> | Contact: +91-8121179428</p>
+    <a class="resume-btn" href="Gowtham_Resume9+.docx" download>📄 Download Resume</a>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am an Atlassian Certified Jira Administrator with over 9 years of IT experience, including 7+ years in Atlassian tools. I specialize in Jira, Confluence, Jira Service Desk, and related plugins. I have worked extensively on installations, upgrades, migrations, workflow customization, dashboards, reports, and training teams for effective collaboration.</p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><strong>Atlassian Tools:</strong> Jira, Confluence, Crowd, Jira Service Desk</li>
+      <li><strong>Cloud:</strong> Atlassian Cloud</li>
+      <li><strong>Source Control:</strong> Git, SVN</li>
+      <li><strong>BI Tools:</strong> Power BI</li>
+      <li><strong>Databases:</strong> SQL, Oracle 11g/12c</li>
+      <li><strong>Scripting:</strong> Shell, basic Python</li>
+      <li><strong>Operating Systems:</strong> Linux, Windows</li>
+      <li><strong>Application Servers:</strong> Tomcat</li>
+    </ul>
+  </section>
+
+  <section id="experience" class="experience">
+    <h2>Professional Experience</h2>
+    <ul>
+      <li><strong>WSP Consultants India Pvt Ltd</strong> (Jan 2021 – Present) <br> Role: Jira Administrator</li>
+      <li><strong>Mabsquare Software Technologies Pvt Ltd</strong> (Mar 2017 – Dec 2020) <br> Role: Jira Administrator</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Key Projects</h2>
+    <ul>
+      <li><strong>WSP Consultants India Pvt Ltd</strong> – Jira Administrator & Developer <br> Implemented Jira Service Desk, dashboards, workflows, SLAs, automation, and plugin upgrades.</li>
+      <li><strong>Ernst & Young</strong> – Jira Administrator <br> Upgraded Jira, installed plugins, configured workflows, and migrated Jira & Confluence across environments.</li>
+      <li><strong>Securonix</strong> – Jira Administrator <br> Worked on Agile boards, Jira Service Desk, migrations, and custom plugins like Timesheet Reports and Zephyr.</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <p><strong>B.Tech (IT)</strong> – JNTU-H (2013) with 68.6%</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:kgh2812jira@gmail.com">kgh2812jira@gmail.com</a></p>
+    <p>Phone: +91-8121179428</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/gowthamkumarkomma/" target="_blank">gowthamkumarkomma</a></p>
+  </section>
+
+  <div class="cta-section">
+    <h2>🚀 Interested in working together?</h2>
+    <p>I’d love to contribute my Jira expertise to your team. Let’s connect and build something great!</p>
+    <div class="cta-buttons">
+      <a class="cta-btn" href="mailto:kgh2812jira@gmail.com">📩 Contact Me</a>
+      <a class="cta-btn" href="https://www.linkedin.com/in/gowthamkumarkomma/" target="_blank">🔗 Connect on LinkedIn</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Gowtham Kumar | Portfolio Website</p>
+  </footer>
+
+</body>
+</html>
